@@ -1,0 +1,10 @@
+.env
+.venv
+.git
+node_modules
+instance
+tests
+.pytest_cache
+__pycache__
+*.pyc
+app/static/img/animals/placeholders

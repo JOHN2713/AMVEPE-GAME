@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Créditos de imágenes{% endblock %}
+
+{% block body %}
+<main class="mx-auto max-w-3xl px-6 py-10">
+  <a href="{{ url_for('pages.register') }}"><img src="{{ url_for('static', filename='img/logo-perseo-pets.png') }}" alt="Perseo Pets" class="h-14 w-auto"></a>
+  <article class="panel mt-8 p-8 text-lg leading-relaxed">
+    <h1 class="text-3xl font-extrabold">Créditos de imágenes</h1>
+    <p class="mt-2 text-muted">Fotografías utilizadas en el Reto Animal, con agradecimiento a sus autores.</p>
+    {% if credits %}
+    <ul class="mt-6 flex flex-col divide-y-2 divide-line">
+      {% for attribution, entry in credits.items() %}
+      <li class="py-3">
+        <p class="font-semibold">{{ attribution }}</p>
+        {% if entry.sources %}
+        <p class="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-base">
+          {% for url in entry.sources %}<a href="{{ url }}" class="link" target="_blank" rel="noopener noreferrer">Foto {{ loop.index }}</a>{% endfor %}
+        </p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p class="mt-6 text-muted">Aún no hay imágenes publicadas.</p>
+    {% endif %}
+    <p class="mt-8 text-base text-muted">Imágenes de stock obtenidas en <a class="link" href="https://www.magnific.com" target="_blank" rel="noopener noreferrer">Magnific (Freepik)</a> según su licencia.</p>
+  </article>
+  <a href="{{ url_for('pages.register') }}" class="btn-secondary mt-6">Volver al inicio</a>
+</main>
+{% endblock %}

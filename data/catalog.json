@@ -1,0 +1,2301 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "azul-ruso",
+      "breed_name_es": "Azul Ruso",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/beautiful-russian-blue-cat-autumn-park_28739677.htm",
+      "local_path": "img/animals/14dffc58c8d7c8f7d306.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 28739677,
+        "title": "Beautiful Russian Blue Cat in the autumn park",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/28739677?lang=en"
+          }
+        ],
+        "query": "russian blue cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "azul-ruso",
+      "breed_name_es": "Azul Ruso",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/majestic-russian-blue-cat_415706669.htm",
+      "local_path": "img/animals/d8ec7c99421eb3773bab.webp",
+      "attribution": "Imagen de Landscape Al en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 415706669,
+        "title": "Majestic Russian Blue Cat",
+        "author": {
+          "id": 964616,
+          "name": "Landscape Al",
+          "avatar": "https://lh3.googleusercontent.com/a/AAcHTte1shDSUcLPqMNlC4MeH1S_7kKFN8QHJ_z9z3mDI67H=s96-c",
+          "assets": 8990,
+          "slug": "landscapeal"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/415706669?lang=en"
+          }
+        ],
+        "query": "russian blue cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "azul-ruso",
+      "breed_name_es": "Azul Ruso",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/russian-blue-cat-sitting-near-red-wall_354621692.htm",
+      "local_path": "img/animals/d96095630aa4f6a0590a.webp",
+      "attribution": "Imagen de Haroon.AI en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 354621692,
+        "title": "Russian blue cat sitting in near red wall",
+        "author": {
+          "id": 1311569,
+          "name": "Haroon.AI",
+          "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKiAbeDzMAR_DPEu1Q_lQd8QOsQDWlkgkIBUC6bkY4DAtcQreA=s96-c",
+          "assets": 1486,
+          "slug": "haroonai"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/354621692?lang=en"
+          }
+        ],
+        "query": "russian blue cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "bengali",
+      "breed_name_es": "Bengalí",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/beautiful-shot-bengal-cat-curiously-staring-camera-with-blurred-background_10835542.htm",
+      "local_path": "img/animals/f1423e8d29f6f7c16991.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 10835542,
+        "title": "Beautiful shot of a bengal cat curiously staring at the camera with a blurred background",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/10835542?lang=en"
+          }
+        ],
+        "query": "bengal cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "bengali",
+      "breed_name_es": "Bengalí",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/bengal-cat-stands-yellow-bed_1472619.htm",
+      "local_path": "img/animals/952497493782c3b2fe96.webp",
+      "attribution": "Imagen de freepic.diller en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 1472619,
+        "title": "Bengal cat stands on yellow bed ",
+        "author": {
+          "id": 8353,
+          "name": "freepic.diller",
+          "avatar": "https://avatar.magnific.com/default_04.png",
+          "assets": 12575,
+          "slug": "freepic-diller"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/1472619?lang=en"
+          }
+        ],
+        "query": "bengal cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "bengali",
+      "breed_name_es": "Bengalí",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/bengal-cat-lies-sofa_13246831.htm",
+      "local_path": "img/animals/44e6e768e6d9f7e5d474.webp",
+      "attribution": "Imagen de eva_gai en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 13246831,
+        "title": "Bengal cat lies on the sofa.",
+        "author": {
+          "id": 100721,
+          "name": "eva_gai",
+          "avatar": "https://avatar.magnific.com/12458278-210226082831.jpg",
+          "assets": 133,
+          "slug": "eva-gai"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/13246831?lang=en"
+          }
+        ],
+        "query": "bengal cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "british-shorthair",
+      "breed_name_es": "British Shorthair",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/gray-cat-relaxing_8888064.htm",
+      "local_path": "img/animals/1fde76e65bcb45d896d9.webp",
+      "attribution": "Imagen de 8photo en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 8888064,
+        "title": "Gray cat relaxing",
+        "author": {
+          "id": 176474,
+          "name": "8photo",
+          "avatar": "https://avatar.magnific.com/default_01.png",
+          "assets": 120011,
+          "slug": "8photo"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/8888064?lang=en"
+          }
+        ],
+        "query": "british shorthair cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "british-shorthair",
+      "breed_name_es": "British Shorthair",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/young-cute-cat-resting-wooden-floor_6482934.htm",
+      "local_path": "img/animals/9980084b17e57861b8ba.webp",
+      "attribution": "Imagen de pakhnyushchyy en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 6482934,
+        "title": "Young cute cat resting on wooden floor.",
+        "author": {
+          "id": 87394,
+          "name": "pakhnyushchyy",
+          "avatar": "https://avatar.magnific.com/default_04.png",
+          "assets": 47491,
+          "slug": "pakhnyushchyy"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/6482934?lang=en"
+          }
+        ],
+        "query": "british shorthair cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "esfinge-sphynx",
+      "breed_name_es": "Esfinge (Sphynx)",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/pet-cat-lifestyle-portraits_20148838.htm",
+      "local_path": "img/animals/9193f5e61a396899b70e.webp",
+      "attribution": "Imagen de magnific en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 20148838,
+        "title": "Pet cat lifestyle and portraits",
+        "author": {
+          "id": 23,
+          "name": "magnific",
+          "avatar": "https://avatar.magnific.com/23.jpg",
+          "assets": 6410463,
+          "slug": "magnific"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/20148838?lang=en"
+          }
+        ],
+        "query": "sphynx cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "esfinge-sphynx",
+      "breed_name_es": "Esfinge (Sphynx)",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/pet-cat-lifestyle-portraits_20148911.htm",
+      "local_path": "img/animals/0b540d10e17d64f3a1c4.webp",
+      "attribution": "Imagen de magnific en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 20148911,
+        "title": "Pet cat lifestyle and portraits",
+        "author": {
+          "id": 23,
+          "name": "magnific",
+          "avatar": "https://avatar.magnific.com/23.jpg",
+          "assets": 6410463,
+          "slug": "magnific"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/20148911?lang=en"
+          }
+        ],
+        "query": "sphynx cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "esfinge-sphynx",
+      "breed_name_es": "Esfinge (Sphynx)",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/sphynx-cat-13-months-old-cat-portrait-isolated_7836876.htm",
+      "local_path": "img/animals/2b2c9fff027ad678046e.webp",
+      "attribution": "Imagen de lifeonwhite en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 7836876,
+        "title": "Sphynx cat, 13 months old. Cat portrait isolated",
+        "author": {
+          "id": 191971,
+          "name": "lifeonwhite",
+          "avatar": "https://avatar.magnific.com/19347644-221025091445.jpg",
+          "assets": 34683,
+          "slug": "lifeonwhite"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/7836876?lang=en"
+          }
+        ],
+        "query": "sphynx cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "maine-coon",
+      "breed_name_es": "Maine Coon",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/beautiful-cat-portrait-close-up_19866341.htm",
+      "local_path": "img/animals/bdd4c854055c6e496002.webp",
+      "attribution": "Imagen de magnific en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 19866341,
+        "title": "Beautiful cat portrait close up",
+        "author": {
+          "id": 23,
+          "name": "magnific",
+          "avatar": "https://avatar.magnific.com/23.jpg",
+          "assets": 6410463,
+          "slug": "magnific"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/19866341?lang=en"
+          }
+        ],
+        "query": "maine coon cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "maine-coon",
+      "breed_name_es": "Maine Coon",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/cute-ginger-maine-coon-kitten-is-lying-special-cat-s-furniture_28992630.htm",
+      "local_path": "img/animals/26a6d6707887cb1a8d36.webp",
+      "attribution": "Imagen de fxquadro en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 28992630,
+        "title": "Cute ginger maine coon kitten is lying on special cat's furniture.",
+        "author": {
+          "id": 613910,
+          "name": "fxquadro",
+          "avatar": "https://avatar.magnific.com/default_01.png",
+          "assets": 21444,
+          "slug": "fxquadro"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/28992630?lang=en"
+          }
+        ],
+        "query": "maine coon cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "maine-coon",
+      "breed_name_es": "Maine Coon",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/adorable-cats-everyday-moments-highquality-stock-images_356150502.htm",
+      "local_path": "img/animals/c0b57b714651d1bb1940.webp",
+      "attribution": "Imagen de mdemajuddinimran07 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 356150502,
+        "title": "Adorable Cats in Everyday Moments HighQuality Stock Images",
+        "author": {
+          "id": 1261751,
+          "name": "mdemajuddinimran07",
+          "avatar": "https://avatar.magnific.com/default_10.png",
+          "assets": 3078,
+          "slug": "mdemajuddinimran07"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/356150502?lang=en"
+          }
+        ],
+        "query": "maine coon cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "persa",
+      "breed_name_es": "Persa",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/lovely-white-cat-nature_3443371.htm",
+      "local_path": "img/animals/17143bc822ce384c7acc.webp",
+      "attribution": "Imagen de magnific en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 3443371,
+        "title": "Lovely white cat in the nature",
+        "author": {
+          "id": 23,
+          "name": "magnific",
+          "avatar": "https://avatar.magnific.com/23.jpg",
+          "assets": 6410463,
+          "slug": "magnific"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/3443371?lang=en"
+          }
+        ],
+        "query": "persian cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "persa",
+      "breed_name_es": "Persa",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/persian-5-months-old_7982479.htm",
+      "local_path": "img/animals/b6673a42850095240232.webp",
+      "attribution": "Imagen de lifeonwhite en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 7982479,
+        "title": "Persian (5 months old)",
+        "author": {
+          "id": 191971,
+          "name": "lifeonwhite",
+          "avatar": "https://avatar.magnific.com/19347644-221025091445.jpg",
+          "assets": 34683,
+          "slug": "lifeonwhite"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/7982479?lang=en"
+          }
+        ],
+        "query": "persian cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "persa",
+      "breed_name_es": "Persa",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/portrait-cute-white-cat-british-shorthair-kitten-looking-camera-bed-domestic-animal-looki_418749750.htm",
+      "local_path": "img/animals/7ed36505313c96a5e16a.webp",
+      "attribution": "Imagen de jamh7706 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 418749750,
+        "title": "portrait of Cute white cat british shorthair kitten looking at camera on bed Domestic animal Looki",
+        "author": {
+          "id": 1157890,
+          "name": "jamh7706",
+          "avatar": "https://avatar.magnific.com/136460049-250705091242.jpg",
+          "assets": 2838,
+          "slug": "jamh7706"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/418749750?lang=en"
+          }
+        ],
+        "query": "persian cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "ragdoll",
+      "breed_name_es": "Ragdoll",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/young-beautiful-purebred-ragdoll-cat-home_51664671.htm",
+      "local_path": "img/animals/12f29ac0c70d42bb499c.webp",
+      "attribution": "Imagen de peredniankina en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 51664671,
+        "title": "Young beautiful purebred Ragdoll cat at home",
+        "author": {
+          "id": 230573,
+          "name": "peredniankina",
+          "avatar": "https://avatar.magnific.com/default_04.png",
+          "assets": 8736,
+          "slug": "peredniankina"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/51664671?lang=en"
+          }
+        ],
+        "query": "ragdoll cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "ragdoll",
+      "breed_name_es": "Ragdoll",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/young-beautiful-purebred-ragdoll-cat-home_51931687.htm",
+      "local_path": "img/animals/d13317f54749870df53a.webp",
+      "attribution": "Imagen de peredniankina en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 51931687,
+        "title": "Young beautiful purebred Ragdoll cat at home",
+        "author": {
+          "id": 230573,
+          "name": "peredniankina",
+          "avatar": "https://avatar.magnific.com/default_04.png",
+          "assets": 8736,
+          "slug": "peredniankina"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/51931687?lang=en"
+          }
+        ],
+        "query": "ragdoll cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "ragdoll",
+      "breed_name_es": "Ragdoll",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/young-healthy-beautiful-purebred-ragdoll-cat-home_60268900.htm",
+      "local_path": "img/animals/ff3d289bba7dbe8ecf91.webp",
+      "attribution": "Imagen de peredniankina en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 60268900,
+        "title": "Young healthy beautiful purebred Ragdoll cat at home",
+        "author": {
+          "id": 230573,
+          "name": "peredniankina",
+          "avatar": "https://avatar.magnific.com/default_04.png",
+          "assets": 8736,
+          "slug": "peredniankina"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/60268900?lang=en"
+          }
+        ],
+        "query": "ragdoll cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "siames",
+      "breed_name_es": "Siamés",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/beautiful-siamese-cat-with-blue-eyes-purebred-pet-home-white-bed_24656168.htm",
+      "local_path": "img/animals/2c8cf6ed106f2b9a458c.webp",
+      "attribution": "Imagen de korneevakristina en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 24656168,
+        "title": "Beautiful Siamese cat with blue eyes Purebred pet at home on a white bed",
+        "author": {
+          "id": 101881,
+          "name": "korneevakristina",
+          "avatar": "https://avatar.magnific.com/12575982.jpg",
+          "assets": 947,
+          "slug": "korneevakristina"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/24656168?lang=en"
+          }
+        ],
+        "query": "siamese cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "siames",
+      "breed_name_es": "Siamés",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/pet-animal-siamese-kitten-cat_40547211.htm",
+      "local_path": "img/animals/046b468fe9f9611e81e2.webp",
+      "attribution": "Imagen de Esin Deniz en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 40547211,
+        "title": "Pet animal, siamese kitten cat",
+        "author": {
+          "id": 693630,
+          "name": "Esin Deniz",
+          "avatar": "https://avatar.magnific.com/default_09.png",
+          "assets": 25374,
+          "slug": "esindeniz"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/40547211?lang=en"
+          }
+        ],
+        "query": "siamese cat"
+      }
+    },
+    {
+      "species": "cat",
+      "usage": "both",
+      "breed_external_id": "siames",
+      "breed_name_es": "Siamés",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/portrait-cat-relaxing-floor_121491564.htm",
+      "local_path": "img/animals/f15fed49e94679a73af3.webp",
+      "attribution": "Imagen de laroche72 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 121491564,
+        "title": "Portrait of cat relaxing on floor",
+        "author": {
+          "id": 1648070,
+          "name": "laroche72",
+          "avatar": "https://avatar.magnific.com/default_10.png",
+          "assets": 286,
+          "slug": "laroche72"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/121491564?lang=en"
+          }
+        ],
+        "query": "siamese cat"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "beagle",
+      "breed_name_es": "Beagle",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/beagle-dog-sitting-with-white-background_2971568.htm",
+      "local_path": "img/animals/60e214c5c52d8a712d8a.webp",
+      "attribution": "Imagen de rawpixel.com en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 2971568,
+        "title": "Beagle dog sitting with white background",
+        "author": {
+          "id": 53876,
+          "name": "rawpixel.com",
+          "avatar": "https://avatar.magnific.com/2199844-241004120929.jpg",
+          "assets": 1474002,
+          "slug": "rawpixel-com"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/2971568?lang=en"
+          }
+        ],
+        "query": "beagle dog",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "beagle",
+      "breed_name_es": "Beagle",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/outdoor-portrait-sweet-beagle-dog-with-smart-brown-eyes-sitting-grass-countryside-with-flowers_11284643.htm",
+      "local_path": "img/animals/160a1ca4b28b43226239.webp",
+      "attribution": "Imagen de karlyukav en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 11284643,
+        "title": "Outdoor portrait of sweet beagle dog with smart brown eyes sitting on grass in countryside with flowers",
+        "author": {
+          "id": 343059,
+          "name": "karlyukav",
+          "avatar": "https://avatar.magnific.com/default_07.png",
+          "assets": 4825,
+          "slug": "karlyukav"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/11284643?lang=en"
+          }
+        ],
+        "query": "beagle dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "beagle",
+      "breed_name_es": "Beagle",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/woman-walking-autumn-park-happy_1160575.htm",
+      "local_path": "img/animals/cec8f4bd7ed6a754f14e.webp",
+      "attribution": "Imagen de senivpetro en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 1160575,
+        "title": "woman walking autumn park happy",
+        "author": {
+          "id": 1303,
+          "name": "senivpetro",
+          "avatar": "https://avatar.magnific.com/default_06.png",
+          "assets": 31805,
+          "slug": "senivpetro"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/1160575?lang=en"
+          }
+        ],
+        "query": "beagle dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "beagle",
+      "breed_name_es": "Beagle",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/beagle-dog-estonian-hound-close-up-background-grass-portrait-dog_16913456.htm",
+      "local_path": "img/animals/799872a7b69139112dfb.webp",
+      "attribution": "Imagen de user19739995 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 16913456,
+        "title": "Beagle dog or Estonian hound close up on a background of grass. Portrait of a dog",
+        "author": {
+          "id": 199743,
+          "name": "user19739995",
+          "avatar": "https://lh3.googleusercontent.com/a-/AOh14GhnwRo0K9tTO66wYQSx7QwgozmiGUyDCyQT7ckK=s96-c",
+          "assets": 22983,
+          "slug": "user19739995"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/16913456?lang=en"
+          }
+        ],
+        "query": "beagle dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "border-collie",
+      "breed_name_es": "Border Collie",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/black-white-border-collie-lying-green-grass_14807926.htm",
+      "local_path": "img/animals/e12520a8e9eed74b1950.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 14807926,
+        "title": "Black and white Border Collie lying on green grass",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/14807926?lang=en"
+          }
+        ],
+        "query": "border collie"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "border-collie",
+      "breed_name_es": "Border Collie",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/closeup-shot-border-collie-field-panting-sunlight_13153438.htm",
+      "local_path": "img/animals/319ee22f670e58cfc83b.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 13153438,
+        "title": "Closeup shot of a Border Collie on a field panting under the sunlight",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/13153438?lang=en"
+          }
+        ],
+        "query": "border collie"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "border-collie",
+      "breed_name_es": "Border Collie",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/border-collie-dog-laying-path_39419720.htm",
+      "local_path": "img/animals/6449a6425c981c4b2c95.webp",
+      "attribution": "Imagen de Oov en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 39419720,
+        "title": "A border collie dog laying on a path",
+        "author": {
+          "id": 357532,
+          "name": "Oov",
+          "avatar": "https://lh5.googleusercontent.com/-4vFPlGawa6U/AAAAAAAAAAI/AAAAAAAAjrI/AMZuuclwnUDythYZrNR7KE9TSGRnKg36Kg/s96-c/photo.jpg",
+          "assets": 20486,
+          "slug": "oov"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/39419720?lang=en"
+          }
+        ],
+        "query": "border collie"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "bulldog-frances",
+      "breed_name_es": "Bulldog Francés",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/adorable-french-bulldog-park_22859721.htm",
+      "local_path": "img/animals/1d8ca830cf408d51f8f2.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 22859721,
+        "title": "Adorable French bulldog in a park",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/22859721?lang=en"
+          }
+        ],
+        "query": "french bulldog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "bulldog-frances",
+      "breed_name_es": "Bulldog Francés",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/closeup-shot-cute-bulldog-isolated-white-background_17234641.htm",
+      "local_path": "img/animals/376968ffa0abe1b5f8c0.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 17234641,
+        "title": "Closeup shot of a cute bulldog isolated on white background",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/17234641?lang=en"
+          }
+        ],
+        "query": "french bulldog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "bulldog-frances",
+      "breed_name_es": "Bulldog Francés",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/french-bulldog-dog-breeds-white-polka-dot-black-marble_10069507.htm",
+      "local_path": "img/animals/e63163172016a33ebcd1.webp",
+      "attribution": "Imagen de jcomp en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 10069507,
+        "title": "French Bulldog Dog Breeds White Polka Dot Black On Marble.",
+        "author": {
+          "id": 1150,
+          "name": "jcomp",
+          "avatar": "https://avatar.magnific.com/1409847-260627034750.jpg",
+          "assets": 80821,
+          "slug": "jcomp"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/10069507?lang=en"
+          }
+        ],
+        "query": "french bulldog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "boxer",
+      "breed_name_es": "Bóxer",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/cute-boxer-dog-standing-park_13902177.htm",
+      "local_path": "img/animals/b3024140cf1e022d5136.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 13902177,
+        "title": "Cute boxer dog standing in a park",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/13902177?lang=en"
+          }
+        ],
+        "query": "boxer dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "boxer",
+      "breed_name_es": "Bóxer",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/high-angle-shot-cute-boxer-dog_17244158.htm",
+      "local_path": "img/animals/db4cc4a432183de5a537.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 17244158,
+        "title": "High angle shot of a cute boxer dog",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/17244158?lang=en"
+          }
+        ],
+        "query": "boxer dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "boxer",
+      "breed_name_es": "Bóxer",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/portrait-dog-breed-boxer_377860676.htm",
+      "local_path": "img/animals/dd980563bfc29436806c.webp",
+      "attribution": "Imagen de ricantimages en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 377860676,
+        "title": "Portrait of dog breed boxer",
+        "author": {
+          "id": 100493,
+          "name": "ricantimages",
+          "avatar": "https://avatar.magnific.com/12432717.jpg",
+          "assets": 1441,
+          "slug": "user12432717"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/377860676?lang=en"
+          }
+        ],
+        "query": "boxer dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "caniche-poodle",
+      "breed_name_es": "Caniche (Poodle)",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/fulllength-portrait-obedient-trained-apricot-poodle-dog-standing-stand-autumn-park_387342108.htm",
+      "local_path": "img/animals/5f8e087ee7fd1aecbecd.webp",
+      "attribution": "Imagen de user23443555 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 387342108,
+        "title": "Fulllength portrait of obedient trained apricot poodle dog standing in a stand in an autumn park",
+        "author": {
+          "id": 298446,
+          "name": "user23443555",
+          "avatar": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=3120913684641049&height=200&width=200&ext=1598446404&hash=AeQwNuE8wfw1w44D",
+          "assets": 5795,
+          "slug": "user23443555"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/387342108?lang=en"
+          }
+        ],
+        "query": "poodle dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "caniche-poodle",
+      "breed_name_es": "Caniche (Poodle)",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/poodle-with-9-years-old-dog-portrait-isolated_7847504.htm",
+      "local_path": "img/animals/db96ef48a03582234a0a.webp",
+      "attribution": "Imagen de lifeonwhite en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 7847504,
+        "title": "Poodle with 9 years old. Dog portrait isolated",
+        "author": {
+          "id": 191971,
+          "name": "lifeonwhite",
+          "avatar": "https://avatar.magnific.com/19347644-221025091445.jpg",
+          "assets": 34683,
+          "slug": "lifeonwhite"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/7847504?lang=en"
+          }
+        ],
+        "query": "poodle dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "caniche-poodle",
+      "breed_name_es": "Caniche (Poodle)",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/sitting-panting-brown-poodle-dog-isolated_8212518.htm",
+      "local_path": "img/animals/38e831585a78131e92fe.webp",
+      "attribution": "Imagen de lifeonwhite en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 8212518,
+        "title": "Sitting and panting brown Poodle dog, isolated",
+        "author": {
+          "id": 191971,
+          "name": "lifeonwhite",
+          "avatar": "https://avatar.magnific.com/19347644-221025091445.jpg",
+          "assets": 34683,
+          "slug": "lifeonwhite"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/8212518?lang=en"
+          }
+        ],
+        "query": "poodle dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "chihuahua",
+      "breed_name_es": "Chihuahua",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/beautiful-pet-portrait-dog_21249140.htm",
+      "local_path": "img/animals/1ac617edf2d969dc85ad.webp",
+      "attribution": "Imagen de magnific en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 21249140,
+        "title": "Beautiful pet portrait of dog",
+        "author": {
+          "id": 23,
+          "name": "magnific",
+          "avatar": "https://avatar.magnific.com/23.jpg",
+          "assets": 6410463,
+          "slug": "magnific"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/21249140?lang=en"
+          }
+        ],
+        "query": "chihuahua dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "chihuahua",
+      "breed_name_es": "Chihuahua",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/chihuahua-sitting-against-white-background_27226993.htm",
+      "local_path": "img/animals/e9da46ca3452eb9ea7d4.webp",
+      "attribution": "Imagen de lifeonwhite en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 27226993,
+        "title": "Chihuahua sitting against white background",
+        "author": {
+          "id": 191971,
+          "name": "lifeonwhite",
+          "avatar": "https://avatar.magnific.com/19347644-221025091445.jpg",
+          "assets": 34683,
+          "slug": "lifeonwhite"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/27226993?lang=en"
+          }
+        ],
+        "query": "chihuahua dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "chihuahua",
+      "breed_name_es": "Chihuahua",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/chihuahua-sitting-isolated-white_10121313.htm",
+      "local_path": "img/animals/06a3976e6d2a53328ead.webp",
+      "attribution": "Imagen de lifeonwhite en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 10121313,
+        "title": "Chihuahua sitting isolated on white",
+        "author": {
+          "id": 191971,
+          "name": "lifeonwhite",
+          "avatar": "https://avatar.magnific.com/19347644-221025091445.jpg",
+          "assets": 34683,
+          "slug": "lifeonwhite"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/10121313?lang=en"
+          }
+        ],
+        "query": "chihuahua dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "dalmata",
+      "breed_name_es": "Dálmata",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/close-up-dog-white-background_111271801.htm",
+      "local_path": "img/animals/82eb2e1b6e6374e316eb.webp",
+      "attribution": "Imagen de cynoclub en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 111271801,
+        "title": "Close-up of a dog over white background",
+        "author": {
+          "id": 87557,
+          "name": "cynoclub",
+          "avatar": "https://avatar.magnific.com/default_07.png",
+          "assets": 38529,
+          "slug": "cynoclub"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/111271801?lang=en"
+          }
+        ],
+        "query": "dalmatian dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "dalmata",
+      "breed_name_es": "Dálmata",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/dalmatian-dog-playing-green-grass-cute-black-white_360717684.htm",
+      "local_path": "img/animals/3282ba9fdaa6e0c798bf.webp",
+      "attribution": "Imagen de dmnkandsk en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 360717684,
+        "title": "A dalmatian dog playing on the green grass cute black and white",
+        "author": {
+          "id": 269841,
+          "name": "dmnkandsk",
+          "avatar": "https://avatar.magnific.com/default_06.png",
+          "assets": 525,
+          "slug": "dmnkandsk"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/360717684?lang=en"
+          }
+        ],
+        "query": "dalmatian dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "golden-retriever",
+      "breed_name_es": "Golden Retriever",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/cute-golden-retriever-dog-relaxing-garden_11791059.htm",
+      "local_path": "img/animals/f4f4ab298b12802ae88c.webp",
+      "attribution": "Imagen de kulbabka en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 11791059,
+        "title": "Cute golden retriever dog relaxing in the garden",
+        "author": {
+          "id": 200040,
+          "name": "kulbabka",
+          "avatar": "https://avatar.magnific.com/default_01.png",
+          "assets": 5606,
+          "slug": "kulbabka"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/11791059?lang=en"
+          }
+        ],
+        "query": "golden retriever dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "golden-retriever",
+      "breed_name_es": "Golden Retriever",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/golden-retriever-dog-colorful-scarf-with-tongue-sticking-out-staying-winter-field_26073481.htm",
+      "local_path": "img/animals/3619fb3b0870d402e4ed.webp",
+      "attribution": "Imagen de user16172657 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 26073481,
+        "title": "Golden retriever dog in colorful scarf with tongue sticking out staying in the winter field",
+        "author": {
+          "id": 143092,
+          "name": "user16172657",
+          "avatar": "https://avatar.magnific.com/16172657-260802142928.jpg",
+          "assets": 16237,
+          "slug": "user16172657"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/26073481?lang=en"
+          }
+        ],
+        "query": "golden retriever dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "golden-retriever",
+      "breed_name_es": "Golden Retriever",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/golden-retriever-dog-sitting-field-yellow-flowers_43518502.htm",
+      "local_path": "img/animals/634bca57dad2ddd6791e.webp",
+      "attribution": "Imagen de marchukphotographer en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 43518502,
+        "title": "A golden retriever dog sitting in a field of yellow flowers.",
+        "author": {
+          "id": 653511,
+          "name": "marchukphotographer",
+          "avatar": "https://avatar.magnific.com/default_08.png",
+          "assets": 3652,
+          "slug": "marchukphotographer"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/43518502?lang=en"
+          }
+        ],
+        "query": "golden retriever dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "husky-siberiano",
+      "breed_name_es": "Husky Siberiano",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/beautiful-siberian-husky-dog-walking-snowy-winter-pine-forest_2584073.htm",
+      "local_path": "img/animals/e946ab9c3021ff3229c2.webp",
+      "attribution": "Imagen de freepic.diller en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 2584073,
+        "title": "Beautiful Siberian Husky dog walking in snowy winter pine forest",
+        "author": {
+          "id": 8353,
+          "name": "freepic.diller",
+          "avatar": "https://avatar.magnific.com/default_04.png",
+          "assets": 12575,
+          "slug": "freepic-diller"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/2584073?lang=en"
+          }
+        ],
+        "query": "siberian husky"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "husky-siberiano",
+      "breed_name_es": "Husky Siberiano",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/vertical-shallow-focus-side-view-siberian-husky-dog_30182632.htm",
+      "local_path": "img/animals/efb8ccfbf3fc59cd8819.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 30182632,
+        "title": "Vertical shallow focus side view of a siberian husky dog",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/30182632?lang=en"
+          }
+        ],
+        "query": "siberian husky"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "husky-siberiano",
+      "breed_name_es": "Husky Siberiano",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/beautiful-siberian-husky-dog-sunny-winter-forest_30153816.htm",
+      "local_path": "img/animals/f0d80efc7803c4fe588d.webp",
+      "attribution": "Imagen de westsib en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 30153816,
+        "title": "Beautiful Siberian husky dog in sunny winter forest",
+        "author": {
+          "id": 112397,
+          "name": "westsib",
+          "avatar": "https://avatar.magnific.com/default_10.png",
+          "assets": 2177,
+          "slug": "user13556277"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/30153816?lang=en"
+          }
+        ],
+        "query": "siberian husky"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "labrador-retriever",
+      "breed_name_es": "Labrador Retriever",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/dog-labrador-retriever-lying-grass-chews-stick_2583881.htm",
+      "local_path": "img/animals/537b6fbefd66053fc1d9.webp",
+      "attribution": "Imagen de freepic.diller en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 2583881,
+        "title": "Dog Labrador retriever lying on grass chews stick",
+        "author": {
+          "id": 8353,
+          "name": "freepic.diller",
+          "avatar": "https://avatar.magnific.com/default_04.png",
+          "assets": 12575,
+          "slug": "freepic-diller"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/2583881?lang=en"
+          }
+        ],
+        "query": "labrador retriever dog",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "labrador-retriever",
+      "breed_name_es": "Labrador Retriever",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/labrador-retriever-dog-sitting-panting_8490616.htm",
+      "local_path": "img/animals/7ae39135f8ded34def87.webp",
+      "attribution": "Imagen de lifeonwhite en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 8490616,
+        "title": "Labrador Retriever dog sitting and panting",
+        "author": {
+          "id": 191971,
+          "name": "lifeonwhite",
+          "avatar": "https://avatar.magnific.com/19347644-221025091445.jpg",
+          "assets": 34683,
+          "slug": "lifeonwhite"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/8490616?lang=en"
+          }
+        ],
+        "query": "labrador retriever dog",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "labrador-retriever",
+      "breed_name_es": "Labrador Retriever",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/yellow-labrador-retriever-dog-sitting_62445183.htm",
+      "local_path": "img/animals/0d68bae8da100ed52c4b.webp",
+      "attribution": "Imagen de alirezahbn en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 62445183,
+        "title": "Yellow Labrador Retriever dog sitting",
+        "author": {
+          "id": 621486,
+          "name": "alirezahbn",
+          "avatar": "https://avatar.magnific.com/55499496-230628052838.jpg",
+          "assets": 7814,
+          "slug": "alirezahbn"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/62445183?lang=en"
+          }
+        ],
+        "query": "labrador retriever dog",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "pastor-aleman",
+      "breed_name_es": "Pastor Alemán",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/selective-focus-shot-adorable-german-shepherd-outdoors-daylight_14703863.htm",
+      "local_path": "img/animals/2223df189b56bc901ce6.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 14703863,
+        "title": "Selective focus shot of an adorable german shepherd outdoors during daylight",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/14703863?lang=en"
+          }
+        ],
+        "query": "german shepherd dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "pastor-aleman",
+      "breed_name_es": "Pastor Alemán",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/german-shepherd-dog-sitting-panting-white-background_423110184.htm",
+      "local_path": "img/animals/c1042cd47105828e78ac.webp",
+      "attribution": "Imagen de lifeonwhite en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 423110184,
+        "title": "German shepherd dog sitting and panting on white background",
+        "author": {
+          "id": 191971,
+          "name": "lifeonwhite",
+          "avatar": "https://avatar.magnific.com/19347644-221025091445.jpg",
+          "assets": 34683,
+          "slug": "lifeonwhite"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/423110184?lang=en"
+          }
+        ],
+        "query": "german shepherd dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "pug",
+      "breed_name_es": "Pug",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/pug-dog-isolated-white-background_7012177.htm",
+      "local_path": "img/animals/789d71d53e01a4c3551c.webp",
+      "attribution": "Imagen de timolina en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 7012177,
+        "title": "Pug dog isolated on a white background",
+        "author": {
+          "id": 2829,
+          "name": "timolina",
+          "avatar": "https://avatar.magnific.com/4082718.jpg",
+          "assets": 22877,
+          "slug": "timolina"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/7012177?lang=en"
+          }
+        ],
+        "query": "pug dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "pug",
+      "breed_name_es": "Pug",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/pug-dog-isolated-white-background_7012187.htm",
+      "local_path": "img/animals/ca6ec572e242c13050d4.webp",
+      "attribution": "Imagen de timolina en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 7012187,
+        "title": "Pug dog isolated on a white background",
+        "author": {
+          "id": 2829,
+          "name": "timolina",
+          "avatar": "https://avatar.magnific.com/4082718.jpg",
+          "assets": 22877,
+          "slug": "timolina"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/7012187?lang=en"
+          }
+        ],
+        "query": "pug dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "pug",
+      "breed_name_es": "Pug",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/funny-cute-playful-pug-dog-isolated-white_169947440.htm",
+      "local_path": "img/animals/2e742f9e142cbcec8462.webp",
+      "attribution": "Imagen de pixel-shot.com en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 169947440,
+        "title": "Funny cute and playful pug dog isolated on white",
+        "author": {
+          "id": 392895,
+          "name": "pixel-shot.com",
+          "avatar": "https://avatar.magnific.com/33982602-260711210823.jpg",
+          "assets": 819775,
+          "slug": "pixel-shot-com"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/169947440?lang=en"
+          }
+        ],
+        "query": "pug dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "schnauzer",
+      "breed_name_es": "Schnauzer",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/portrait-cute-miniature-schnauzer-lights_14110125.htm",
+      "local_path": "img/animals/30959317e509874ebef2.webp",
+      "attribution": "Imagen de wirestock en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 14110125,
+        "title": "Portrait of a cute Miniature Schnauzer under the lights",
+        "author": {
+          "id": 181624,
+          "name": "wirestock",
+          "avatar": "https://avatar.magnific.com/18831218.jpg",
+          "assets": 59955,
+          "slug": "wirestock"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/14110125?lang=en"
+          }
+        ],
+        "query": "schnauzer dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "schnauzer",
+      "breed_name_es": "Schnauzer",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/gray-miniature-schnauzer_4725929.htm",
+      "local_path": "img/animals/13a0817fd60699c9d31f.webp",
+      "attribution": "Imagen de cynoclub en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 4725929,
+        "title": "gray miniature schnauzer",
+        "author": {
+          "id": 87557,
+          "name": "cynoclub",
+          "avatar": "https://avatar.magnific.com/default_07.png",
+          "assets": 38529,
+          "slug": "cynoclub"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/4725929?lang=en"
+          }
+        ],
+        "query": "schnauzer dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "schnauzer",
+      "breed_name_es": "Schnauzer",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/portrait-miniature-schnauzer-dog_37858863.htm",
+      "local_path": "img/animals/1db2299308535cea1e56.webp",
+      "attribution": "Imagen de 12photostory en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 37858863,
+        "title": "portrait of The Miniature Schnauzer Dog",
+        "author": {
+          "id": 802764,
+          "name": "12photostory",
+          "avatar": "https://media.magnific.com/avatars/01.svg",
+          "assets": 3256,
+          "slug": "12photostory"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/37858863?lang=en"
+          }
+        ],
+        "query": "schnauzer dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "shih-tzu",
+      "breed_name_es": "Shih Tzu",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/front-view-cute-dog-sitting_6878888.htm",
+      "local_path": "img/animals/fb777d3b41c2f72591a4.webp",
+      "attribution": "Imagen de magnific en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 6878888,
+        "title": "Front view cute dog sitting",
+        "author": {
+          "id": 23,
+          "name": "magnific",
+          "avatar": "https://avatar.magnific.com/23.jpg",
+          "assets": 6410463,
+          "slug": "magnific"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/6878888?lang=en"
+          }
+        ],
+        "query": "shih tzu dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "shih-tzu",
+      "breed_name_es": "Shih Tzu",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/shih-tzu-dog-relaxing-sofa-living-room_26143089.htm",
+      "local_path": "img/animals/66706d132c415b1b2805.webp",
+      "attribution": "Imagen de Drazen Zigic en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 26143089,
+        "title": "Shih tzu dog relaxing on the sofa in the living room",
+        "author": {
+          "id": 637285,
+          "name": "Drazen Zigic",
+          "avatar": "https://lh3.googleusercontent.com/a/AATXAJx8epCtA5Bpzf2ilgZQbYJs32qYHTU8IS2ZjcLP=s96-c",
+          "assets": 12780,
+          "slug": "drazenzigic"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/26143089?lang=en"
+          }
+        ],
+        "query": "shih tzu dog"
+      }
+    },
+    {
+      "species": "dog",
+      "usage": "both",
+      "breed_external_id": "shih-tzu",
+      "breed_name_es": "Shih Tzu",
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/shih-tzu-wilderness-wooden-ears-looking-cute_29416910.htm",
+      "local_path": "img/animals/a26f46f41ef1381e1fe6.webp",
+      "attribution": "Imagen de wirestock_creators en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 29416910,
+        "title": "shih tzu wilderness wooden ears looking cute",
+        "author": {
+          "id": 665346,
+          "name": "wirestock_creators",
+          "avatar": "https://avatar.magnific.com/72006770-221219101621.jpg",
+          "assets": 110166,
+          "slug": "wirestockcreators"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/29416910?lang=en"
+          }
+        ],
+        "query": "shih tzu dog"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/blue-white-budgerigar-pets-concept-domestic-birds_373803948.htm",
+      "local_path": "img/animals/793ee03da913c203aec9.webp",
+      "attribution": "Imagen de pvproductions en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 373803948,
+        "title": "Blue and white budgerigar pets concept and domestic birds",
+        "author": {
+          "id": 169016,
+          "name": "pvproductions",
+          "avatar": "https://avatar.magnific.com/18089375-210504011245.jpg",
+          "assets": 53574,
+          "slug": "pvproductions"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/373803948?lang=en"
+          }
+        ],
+        "query": "turtle pet",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/pretty-little-girl-is-playing-with-pet-rabbit-pets-concept_353426503.htm",
+      "local_path": "img/animals/39e69e403346fc0ba719.webp",
+      "attribution": "Imagen de pvproductions en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 353426503,
+        "title": "A pretty little girl is playing with a pet rabbit Pets concept",
+        "author": {
+          "id": 169016,
+          "name": "pvproductions",
+          "avatar": "https://avatar.magnific.com/18089375-210504011245.jpg",
+          "assets": 53574,
+          "slug": "pvproductions"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/353426503?lang=en"
+          }
+        ],
+        "query": "rabbit pet",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/free-photo/red-rabbit-couch-pet-concept-easter-holidays_392962093.htm",
+      "local_path": "img/animals/a3802a7f354b6c61b938.webp",
+      "attribution": "Imagen de pvproductions en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 392962093,
+        "title": "Red rabbit on the couch Pet concept Easter holidays",
+        "author": {
+          "id": 169016,
+          "name": "pvproductions",
+          "avatar": "https://avatar.magnific.com/18089375-210504011245.jpg",
+          "assets": 53574,
+          "slug": "pvproductions"
+        },
+        "license_type": "freemium",
+        "licenses": [
+          {
+            "type": "freemium",
+            "url": "https://www.magnific.com/profile/license/pdf/392962093?lang=en"
+          }
+        ],
+        "query": "rabbit pet",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/beautiful-parrot-birds-standing-woman-hand-asian-teenager-girl-play-with-her-pet-parrot-bird_6709533.htm",
+      "local_path": "img/animals/d3662f73ad0b35009e79.webp",
+      "attribution": "Imagen de a3pfamily en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 6709533,
+        "title": "Beautiful parrot birds standing on woman hand. Asian teenager girl play with her pet parrot bird",
+        "author": {
+          "id": 7186,
+          "name": "a3pfamily",
+          "avatar": "https://avatar.magnific.com/default_05.png",
+          "assets": 5370,
+          "slug": "a3pfamily"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/6709533?lang=en"
+          }
+        ],
+        "query": "parrot pet",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/close-up-cat_123938369.htm",
+      "local_path": "img/animals/ed62a522b23f46b70458.webp",
+      "attribution": "Imagen de kabura1612 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 123938369,
+        "title": "Close-up of cat",
+        "author": {
+          "id": 1609455,
+          "name": "kabura1612",
+          "avatar": "https://avatar.magnific.com/default_02.png",
+          "assets": 113,
+          "slug": "kabura1612"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/123938369?lang=en"
+          }
+        ],
+        "query": "hamster",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/close-up-portrait-riding-horses-muzzle-showing-expressive-eyes-refined-facial-features-ideal-images-focusing-equestrian-sports-horse-care-farm-animals-rural-beauty_418630826.htm",
+      "local_path": "img/animals/244d0db0272e17739c65.webp",
+      "attribution": "Imagen de AlexFotolabs en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 418630826,
+        "title": "Close up portrait of riding horses muzzle showing expressive eyes and refined facial features Ideal for images focusing on equestrian sports horse care farm animals and rural beauty",
+        "author": {
+          "id": 790807,
+          "name": "AlexFotolabs",
+          "avatar": "https://media.magnific.com/avatars/08.svg",
+          "assets": 5002,
+          "slug": "alexfotolabs"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/418630826?lang=en"
+          }
+        ],
+        "query": "horse portrait",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/fondled-parrot-sitting-hand-favorite-pet-care-grooming-concept_7517209.htm",
+      "local_path": "img/animals/da223b06f4e21c565b53.webp",
+      "attribution": "Imagen de stanislav71 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 7517209,
+        "title": "Fondled the parrot sitting on the hand. Favorite pet, care and grooming concept.",
+        "author": {
+          "id": 158388,
+          "name": "stanislav71",
+          "avatar": "https://avatar.magnific.com/default_05.png",
+          "assets": 13259,
+          "slug": "stanislav71"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/7517209?lang=en"
+          }
+        ],
+        "query": "parrot pet",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/gold-fish-isolated-white-background_22908368.htm",
+      "local_path": "img/animals/c139fcc1ec9b1cad86c8.webp",
+      "attribution": "Imagen de Andrei Armiagov en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 22908368,
+        "title": "Gold fish isolated on a white background.",
+        "author": {
+          "id": 564276,
+          "name": "Andrei Armiagov",
+          "avatar": "https://avatar.magnific.com/default_03.png",
+          "assets": 32003,
+          "slug": "andrei-armiagov"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/22908368?lang=en"
+          }
+        ],
+        "query": "goldfish",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/gold-fish-isolated-white-background_47146133.htm",
+      "local_path": "img/animals/87667e5676298ab6e7f3.webp",
+      "attribution": "Imagen de jaboo2foto en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 47146133,
+        "title": "gold fish isolated on white background",
+        "author": {
+          "id": 37778,
+          "name": "jaboo2foto",
+          "avatar": "https://avatar.magnific.com/6708560.jpg",
+          "assets": 1267,
+          "slug": "jaboo2foto"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/47146133?lang=en"
+          }
+        ],
+        "query": "goldfish",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/horse-nature-portrait-horse-brown-horse_14526272.htm",
+      "local_path": "img/animals/17a3dae0e8de8ad3c7b0.webp",
+      "attribution": "Imagen de colorful19 en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 14526272,
+        "title": "Horse on nature. Portrait of a horse, brown horse",
+        "author": {
+          "id": 231786,
+          "name": "colorful19",
+          "avatar": "https://avatar.magnific.com/20952271-211101042119.jpg",
+          "assets": 10575,
+          "slug": "colorful19"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/14526272?lang=en"
+          }
+        ],
+        "query": "horse portrait",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/scared-syrian-hamster-with-funny-expression_7239444.htm",
+      "local_path": "img/animals/f19733ca0a303069bfbf.webp",
+      "attribution": "Imagen de olenakurashova en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 7239444,
+        "title": "Scared Syrian hamster with a funny expression",
+        "author": {
+          "id": 124337,
+          "name": "olenakurashova",
+          "avatar": "https://avatar.magnific.com/14690229-201115061608.jpg",
+          "assets": 547,
+          "slug": "olenakurashova"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/7239444?lang=en"
+          }
+        ],
+        "query": "hamster",
+        "processing": "contain-v2"
+      }
+    },
+    {
+      "species": "other",
+      "usage": "memory",
+      "breed_external_id": null,
+      "breed_name_es": null,
+      "provider": "magnific",
+      "source_url": "https://www.magnific.com/premium-photo/turtle-hand-close-up-concept-human-friendship-with-animal-world-helping-needy-animals_28098821.htm",
+      "local_path": "img/animals/07a2dcc12373911cf614.webp",
+      "attribution": "Imagen de sergey_pakulin en Magnific (Freepik)",
+      "active": true,
+      "metadata": {
+        "magnific_id": 28098821,
+        "title": "Turtle on hand close up The concept of human friendship with the animal world Helping needy animals",
+        "author": {
+          "id": 230115,
+          "name": "sergey_pakulin",
+          "avatar": "https://avatar.magnific.com/default_01.png",
+          "assets": 13506,
+          "slug": "sergeypakulin"
+        },
+        "license_type": "premium",
+        "licenses": [
+          {
+            "type": "premium",
+            "url": "https://www.magnific.com/profile/license/pdf/28098821?lang=en"
+          }
+        ],
+        "query": "turtle pet",
+        "processing": "contain-v2"
+      }
+    }
+  ]
+}

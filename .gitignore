@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+instance/
+node_modules/
+.pytest_cache/
+*.sqlite3
+# Imágenes de prueba generadas localmente
+app/static/img/animals/placeholders/
+# Exportaciones con datos personales
+*.csv
+!data/*.csv

@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Resultados{% endblock %}
+
+{% block body %}
+<main class="mx-auto grid min-h-screen max-w-[1500px] items-center gap-8 px-6 py-8 [@media(max-height:820px)]:py-4 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:gap-12 lg:px-12">
+  <section class="flex flex-col gap-6" aria-labelledby="result-title">
+    <img src="{{ url_for('static', filename='img/logo-perseo-pets.png') }}" alt="Perseo Pets" class="h-14 w-auto self-start">
+    <div id="result-loading" class="text-3xl font-bold text-muted" role="status">Calculando tu resultado…</div>
+    <div id="result-error" class="panel p-8" role="alert" hidden>
+      <p class="text-3xl font-extrabold">No pudimos mostrar el resultado</p>
+      <p id="result-error-text" class="mt-2 text-xl text-muted"></p>
+      <button type="button" id="result-retry" class="btn-primary mt-6">Reintentar</button>
+    </div>
+
+    <div id="result-content" class="flex flex-col gap-6" hidden>
+      <div>
+        <h1 id="result-title" class="text-5xl font-extrabold lg:text-6xl">¡Reto completado!</h1>
+        <p class="mt-2 text-2xl text-muted"><span id="result-name"></span><span id="result-player" class="font-semibold"></span></p>
+      </div>
+
+      <div class="panel flex items-center gap-8 p-8">
+        <div>
+          <p class="text-xl font-semibold uppercase tracking-wider text-muted">Puntaje total</p>
+          <p class="text-8xl font-extrabold leading-none text-primary tabular-nums" id="result-total">0</p>
+        </div>
+        <div id="result-position" class="ml-auto rounded-2xl bg-ink px-6 py-4 text-center text-white" hidden>
+          <p class="text-lg font-semibold opacity-80">Posición en ranking</p>
+          <p class="text-5xl font-extrabold tabular-nums" id="result-position-number">#1</p>
+          <p class="text-base opacity-80" id="result-position-total"></p>
+        </div>
+      </div>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div class="panel p-6">
+          <p class="text-lg font-semibold text-muted">Etapa 1 · Memoria animal</p>
+          <p class="mt-1 text-4xl font-extrabold tabular-nums"><span id="result-memory">0</span> pts</p>
+          <p class="mt-1 text-xl"><span id="result-pairs">0</span> de <span id="result-pairs-total">6</span> parejas encontradas</p>
+        </div>
+        <div class="panel p-6">
+          <p class="text-lg font-semibold text-muted">Etapa 2 · ¿Qué raza es?</p>
+          <p class="mt-1 text-4xl font-extrabold tabular-nums"><span id="result-breed">0</span> pts</p>
+          <p class="mt-1 text-xl"><span id="result-breed-correct">0</span> de <span id="result-breed-answered">0</span> respuestas correctas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <aside class="panel flex flex-col items-center gap-5 p-8 text-center [@media(max-height:820px)]:gap-3 [@media(max-height:820px)]:py-6" aria-labelledby="cta-title">
+    <h2 id="cta-title" class="text-4xl font-extrabold">¡Buen trabajo!</h2>
+    <p class="text-xl leading-snug text-muted">¿Quieres descubrir cómo <strong class="text-ink">Perseo Pets</strong> puede ayudarte a organizar la gestión de tu clínica veterinaria? Escanea el QR y solicita una demostración.</p>
+    <img src="{{ url_for('pages.demo_qr') }}" alt="Código QR para solicitar una demostración de Perseo Pets" class="h-56 w-56 rounded-2xl border-4 border-primary bg-white p-2 lg:h-64 lg:w-64 [@media(max-height:820px)]:h-44 [@media(max-height:820px)]:w-44" width="256" height="256">
+    <p class="pill bg-primary-soft text-primary">Conoce Perseo Pets · Solicita una demostración</p>
+    <p class="text-lg font-semibold">O conversa ahora con nuestro asesor en el stand.</p>
+    <div class="mt-2 flex w-full flex-col gap-3">
+      <button type="button" id="new-player-btn" class="btn-primary w-full">Nuevo jugador</button>
+      <a href="{{ url_for('pages.ranking') }}" class="btn-secondary w-full">Ver ranking</a>
+    </div>
+    <p class="text-base text-muted" id="idle-notice" aria-live="polite"></p>
+    <a href="{{ url_for('pages.credits') }}" class="text-sm text-muted underline underline-offset-4 hover:text-primary">Créditos de imágenes</a>
+  </aside>
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script type="module" src="{{ url_for('static', filename='js/results.js') }}"></script>
+{% endblock %}

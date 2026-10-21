@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}Juego{% endblock %}
+{% block body_class %}overflow-hidden{% endblock %}
+
+{% block body %}
+<div class="flex h-screen flex-col">
+  <!-- Barra superior: etapa, tiempo y puntaje siempre visibles -->
+  <header class="grid grid-cols-[auto_1fr_auto] items-center gap-6 bg-surface px-6 py-3 shadow-card lg:px-10">
+    <img src="{{ url_for('static', filename='img/logo-perseo-pets.png') }}" alt="Perseo Pets" class="h-11 w-auto lg:h-12">
+
+    <div class="flex flex-col gap-2">
+      <div class="flex items-center justify-center gap-4">
+        <p class="text-xl font-bold lg:text-2xl" aria-live="polite">
+          <span class="text-muted">Etapa</span> <span id="stage-number">1</span> <span class="text-muted">de 2 ·</span>
+          <span id="stage-name">Memoria animal</span>
+        </p>
+      </div>
+      <div class="mx-auto grid w-full max-w-2xl grid-cols-2 gap-2" aria-hidden="true">
+        <div class="timer-bar" id="bar-stage-1"><span></span></div>
+        <div class="timer-bar" id="bar-stage-2"><span></span></div>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-4">
+      <div class="flex min-w-[140px] flex-col items-center rounded-2xl bg-ink px-5 py-1.5 text-white">
+        <span class="text-sm font-semibold uppercase tracking-wider opacity-80">Tiempo</span>
+        <span id="timer" class="text-4xl font-extrabold tabular-nums leading-tight" role="timer" aria-live="off">1:30</span>
+      </div>
+      <div class="relative flex min-w-[140px] flex-col items-center rounded-2xl bg-primary px-5 py-1.5 text-white">
+        <span class="text-sm font-semibold uppercase tracking-wider opacity-90">Puntos</span>
+        <span id="score" class="text-4xl font-extrabold tabular-nums leading-tight" aria-live="polite">0</span>
+        <span id="score-pop" class="pointer-events-none absolute -bottom-2 right-3 text-2xl font-extrabold text-primary" hidden>+10</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="relative flex flex-1 items-center justify-center overflow-hidden px-6 py-4 lg:px-8">
+    <!-- Etapa 1 -->
+    <section id="memory-stage" class="flex w-full flex-col items-center gap-3" aria-label="Memoria animal" hidden>
+      <p id="memory-hint" class="text-xl font-semibold text-muted lg:text-2xl">Haz clic en dos cartas para encontrar la pareja · <span id="pairs-progress">0</span>/6 parejas</p>
+      <div id="memory-board" class="memory-board"></div>
+    </section>
+
+    <!-- Etapa 2 -->
+    <section id="breed-stage" class="grid h-full w-full max-w-[1500px] items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-12" aria-label="Adivina la raza" hidden>
+      <div id="breed-image-panel" class="flex h-full max-h-[calc(100vh-150px)] items-center justify-center">
+        <div class="panel aspect-square h-full max-h-full w-auto max-w-full overflow-hidden border-4 border-white">
+          <img id="breed-image" src="data:," alt="Fotografía del animal de la pregunta" class="h-full w-full object-cover">
+        </div>
+      </div>
+      <div id="breed-question-panel" class="flex flex-col gap-5">
+        <p class="text-xl font-semibold text-muted">Pregunta <span id="question-number">1</span> · Aciertos: <span id="breed-progress">0</span></p>
+        <h2 class="text-5xl font-extrabold lg:text-6xl">¿Qué raza es?</h2>
+        <div id="breed-options" class="flex flex-col gap-4" role="group" aria-label="Opciones de raza"></div>
+        <p id="breed-feedback" class="flex min-h-[44px] items-center gap-3 text-2xl font-bold" aria-live="assertive"></p>
+      </div>
+      <div id="breed-exhausted" class="col-span-full text-center" hidden>
+        <p class="text-4xl font-extrabold">¡Respondiste todas las preguntas!</p>
+        <p class="mt-2 text-2xl text-muted">Espera a que termine el tiempo para ver tu resultado.</p>
+      </div>
+    </section>
+
+    <!-- Superposiciones -->
+    <div id="overlay" class="absolute inset-0 z-20 flex flex-col items-center justify-center gap-6 bg-bg/95 text-center" role="status" aria-live="polite">
+      <p id="overlay-title" class="text-5xl font-extrabold">Preparando el tablero…</p>
+      <p id="overlay-text" class="max-w-2xl text-2xl text-muted">Cargando imágenes</p>
+      <p id="overlay-count" class="text-[160px] font-extrabold leading-none text-primary" hidden></p>
+      <div id="overlay-actions" class="flex gap-4" hidden>
+        <button type="button" id="retry-btn" class="btn-primary">Reintentar</button>
+        <a href="{{ url_for('pages.register') }}" class="btn-secondary" id="home-link">Volver al inicio</a>
+      </div>
+    </div>
+
+    <div id="stage-banner" class="pointer-events-none absolute inset-x-0 bottom-6 z-10 flex justify-center" hidden>
+      <p id="stage-banner-text" class="animate-pop rounded-2xl bg-ink px-8 py-4 text-3xl font-extrabold text-white shadow-card">¡Etapa 2! ¿Qué raza es?</p>
+    </div>
+
+    <div id="connection-banner" class="absolute inset-x-0 bottom-4 z-30 flex justify-center" role="alert" hidden>
+      <p class="rounded-2xl bg-incorrect px-6 py-3 text-xl font-bold text-white">Problema de conexión. Reintentando…</p>
+    </div>
+  </main>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="module" src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% endblock %}

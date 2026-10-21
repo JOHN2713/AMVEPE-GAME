@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}{{ "Términos y Condiciones" if page == "terms" else "Aviso de Privacidad" }}{% endblock %}
+
+{% block body %}
+<main class="mx-auto max-w-3xl px-6 py-10">
+  <a href="{{ url_for('pages.register') }}"><img src="{{ url_for('static', filename='img/logo-perseo-pets.png') }}" alt="Perseo Pets" class="h-14 w-auto"></a>
+  <article class="panel mt-8 p-8 text-lg leading-relaxed">
+    <h1 class="mb-4 text-3xl font-extrabold">{{ "Términos y Condiciones — Reto Animal Perseo Pets" if page == "terms" else "Aviso de Privacidad — Reto Animal Perseo Pets" }}</h1>
+    {% include "partials/terms_content.html" if page == "terms" else "partials/privacy_content.html" %}
+  </article>
+</main>
+{% endblock %}

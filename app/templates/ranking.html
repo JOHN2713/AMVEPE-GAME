@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Ranking{% endblock %}
+
+{% block body %}
+<main class="mx-auto flex min-h-screen max-w-5xl flex-col gap-8 px-6 py-10">
+  <header class="flex flex-wrap items-center justify-between gap-6">
+    <img src="{{ url_for('static', filename='img/logo-perseo-pets.png') }}" alt="Perseo Pets" class="h-14 w-auto">
+    <a href="{{ url_for('pages.register') }}" class="btn-primary">¡Quiero jugar!</a>
+  </header>
+  <div>
+    <h1 class="text-5xl font-extrabold">Ranking · Reto Animal</h1>
+    <p class="mt-2 text-xl text-muted">Mejor puntaje de cada jugador. Se actualiza automáticamente.</p>
+  </div>
+  <section class="panel overflow-hidden" aria-live="polite">
+    <table class="w-full text-left text-2xl">
+      <thead class="bg-ink text-lg uppercase tracking-wider text-white">
+        <tr>
+          <th scope="col" class="px-6 py-4">#</th>
+          <th scope="col" class="px-6 py-4">Jugador</th>
+          <th scope="col" class="px-6 py-4 text-right">Parejas</th>
+          <th scope="col" class="px-6 py-4 text-right">Razas</th>
+          <th scope="col" class="px-6 py-4 text-right">Puntos</th>
+        </tr>
+      </thead>
+      <tbody id="ranking-body" class="divide-y-2 divide-line">
+        <tr><td colspan="5" class="px-6 py-10 text-center text-muted">Cargando…</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script type="module" src="{{ url_for('static', filename='js/ranking.js') }}"></script>
+{% endblock %}

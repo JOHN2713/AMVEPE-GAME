@@ -1,0 +1,16 @@
+{% for key, title, partial in [("terms", "Términos y Condiciones", "partials/terms_content.html"), ("privacy", "Aviso de Privacidad", "partials/privacy_content.html")] %}
+<dialog id="legal-{{ key }}" class="legal w-[min(860px,94vw)] rounded-3xl p-0 text-ink shadow-card" aria-labelledby="legal-{{ key }}-title">
+  <div class="flex max-h-[86vh] flex-col">
+    <header class="flex items-center justify-between gap-4 border-b-2 border-line px-8 py-5">
+      <h2 id="legal-{{ key }}-title" class="text-2xl font-extrabold">{{ title }}</h2>
+      <button type="button" class="btn-secondary btn-sm" data-close-legal>Cerrar</button>
+    </header>
+    <div class="overflow-y-auto px-8 py-6 text-lg leading-relaxed">
+      {% include partial %}
+    </div>
+    <footer class="border-t-2 border-line px-8 py-4 text-right">
+      <button type="button" class="btn-primary btn-sm" data-close-legal>Entendido</button>
+    </footer>
+  </div>
+</dialog>
+{% endfor %}

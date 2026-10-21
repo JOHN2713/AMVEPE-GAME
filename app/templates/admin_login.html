@@ -1,0 +1,26 @@
+{% extends "admin_base.html" %}
+{% block title %}Acceso administración{% endblock %}
+
+{% block admin_content %}
+<section class="panel mx-auto mt-10 max-w-md p-8">
+  <h1 class="text-3xl font-extrabold">Acceso de administración</h1>
+  {% if not configured %}
+    <p class="mt-4 rounded-xl bg-incorrect-soft p-4 font-semibold text-incorrect">
+      El acceso está deshabilitado: configura ADMIN_PASSWORD_HASH (ver <code>flask hash-password</code> en el README).
+    </p>
+  {% endif %}
+  {% if error %}<p class="mt-4 rounded-xl bg-incorrect-soft p-4 font-semibold text-incorrect" role="alert">{{ error }}</p>{% endif %}
+  <form method="post" class="mt-6 flex flex-col gap-5">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+    <div>
+      <label for="username" class="field-label">Usuario</label>
+      <input id="username" name="username" class="field-input" autocomplete="username" required>
+    </div>
+    <div>
+      <label for="password" class="field-label">Contraseña</label>
+      <input id="password" name="password" type="password" class="field-input" autocomplete="current-password" required>
+    </div>
+    <button class="btn-primary">Ingresar</button>
+  </form>
+</section>
+{% endblock %}

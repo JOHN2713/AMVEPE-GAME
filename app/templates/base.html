@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es-EC">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Reto Animal{% endblock %} · Perseo Pets</title>
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo-perseo-pets.png') }}">
+  <link rel="preload" href="{{ url_for('static', filename='fonts/montserrat-latin-700-normal.woff2') }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+  {% block body %}{% endblock %}
+  {% block scripts %}{% endblock %}
+</body>
+</html>

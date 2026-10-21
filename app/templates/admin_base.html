@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block body %}
+<header class="bg-surface shadow-card">
+  <div class="mx-auto flex max-w-[1500px] flex-wrap items-center gap-6 px-6 py-4">
+    <img src="{{ url_for('static', filename='img/logo-perseo-pets.png') }}" alt="Perseo Pets" class="h-10 w-auto">
+    <span class="pill bg-ink text-base text-white">Administración · {{ event_code }}</span>
+    {% if session.get("is_admin") %}
+    <nav class="flex flex-wrap items-center gap-2 text-base font-semibold">
+      <a href="{{ url_for('admin.dashboard') }}" class="rounded-lg px-3 py-2 hover:bg-bg">Resumen</a>
+      <a href="{{ url_for('admin.catalog') }}" class="rounded-lg px-3 py-2 hover:bg-bg">Catálogo de imágenes</a>
+      <a href="{{ url_for('pages.ranking') }}" class="rounded-lg px-3 py-2 hover:bg-bg" target="_blank" rel="noopener">Ranking público</a>
+    </nav>
+    <form method="post" action="{{ url_for('admin.logout') }}" class="ml-auto">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <button class="btn-secondary btn-sm">Cerrar sesión</button>
+    </form>
+    {% endif %}
+  </div>
+</header>
+<main class="mx-auto max-w-[1500px] px-6 py-8">
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% for category, message in messages %}
+      <p class="mb-4 rounded-xl p-4 text-lg font-semibold {{ 'bg-correct-soft text-correct' if category == 'ok' else 'bg-incorrect-soft text-incorrect' }}" role="status">{{ message }}</p>
+    {% endfor %}
+  {% endwith %}
+  {% block admin_content %}{% endblock %}
+</main>
+{% endblock %}

@@ -1,0 +1,29 @@
+species,usage,breed_name_es,query,count
+other,memory,,rabbit pet,2
+other,memory,,parrot pet,2
+other,memory,,hamster,2
+other,memory,,turtle pet,2
+other,memory,,horse portrait,2
+other,memory,,goldfish,2
+dog,both,Labrador Retriever,labrador retriever dog,3
+dog,both,Golden Retriever,golden retriever dog,3
+dog,both,Pastor Alemán,german shepherd dog,3
+dog,both,Bulldog Francés,french bulldog,3
+dog,both,Beagle,beagle dog,3
+dog,both,Caniche (Poodle),poodle dog,3
+dog,both,Chihuahua,chihuahua dog,3
+dog,both,Husky Siberiano,siberian husky,3
+dog,both,Dálmata,dalmatian dog,3
+dog,both,Schnauzer,schnauzer dog,3
+dog,both,Shih Tzu,shih tzu dog,3
+dog,both,Border Collie,border collie,3
+dog,both,Pug,pug dog,3
+dog,both,Bóxer,boxer dog,3
+cat,both,Persa,persian cat,3
+cat,both,Siamés,siamese cat,3
+cat,both,Maine Coon,maine coon cat,3
+cat,both,Bengalí,bengal cat,3
+cat,both,Ragdoll,ragdoll cat,3
+cat,both,Esfinge (Sphynx),sphynx cat,3
+cat,both,Azul Ruso,russian blue cat,3
+cat,both,British Shorthair,british shorthair cat,3

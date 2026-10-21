@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}Registro{% endblock %}
+
+{% block body %}
+<main class="mx-auto grid min-h-screen max-w-[1600px] items-center gap-8 px-6 py-8 [@media(max-height:820px)]:py-4 lg:grid-cols-[1fr_minmax(0,620px)] lg:gap-14 lg:px-14">
+  <section class="flex flex-col gap-8" aria-labelledby="hero-title">
+    <img src="{{ url_for('static', filename='img/logo-perseo-pets.png') }}" alt="Perseo Pets" class="h-16 w-auto self-start lg:h-20" width="262" height="80">
+    <div>
+      <h1 id="hero-title" class="text-5xl font-extrabold leading-tight tracking-tight lg:text-6xl xl:text-7xl">
+        ¡Acepta el<br><span class="text-primary">Reto Animal!</span>
+      </h1>
+      <p class="mt-5 max-w-xl text-2xl font-medium leading-snug text-muted xl:text-[28px]">
+        Encuentra parejas y demuestra cuánto sabes de perros y gatos. Tienes&nbsp;<strong class="text-ink">90&nbsp;segundos</strong>.
+      </p>
+    </div>
+    <ol class="grid max-w-2xl gap-4 sm:grid-cols-2" aria-label="Etapas del reto">
+      <li class="panel flex items-start gap-4 p-5">
+        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-primary text-2xl font-extrabold text-white" aria-hidden="true">1</span>
+        <div>
+          <p class="text-xl font-bold">Memoria animal</p>
+          <p class="text-lg text-muted">Hasta 45 s · 10 puntos por pareja</p>
+        </div>
+      </li>
+      <li class="panel flex items-start gap-4 p-5">
+        <span class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-primary text-2xl font-extrabold text-white" aria-hidden="true">2</span>
+        <div>
+          <p class="text-xl font-bold">¿Qué raza es?</p>
+          <p class="text-lg text-muted">El tiempo restante · 10 puntos por acierto</p>
+        </div>
+      </li>
+    </ol>
+    <p class="text-base text-muted"><a href="{{ url_for('pages.credits') }}" class="underline underline-offset-4 hover:text-primary">Créditos de imágenes</a></p>
+  </section>
+
+  <section class="panel p-6 sm:p-8" aria-labelledby="form-title">
+    <h2 id="form-title" class="text-3xl font-extrabold">Regístrate para jugar</h2>
+    <p class="mt-1 text-base text-muted">Solo te tomará un momento. <span class="text-incorrect" aria-hidden="true">*</span> Obligatorio</p>
+
+    <div id="error-summary" class="mt-4 rounded-xl border-2 border-incorrect bg-incorrect-soft p-4 text-lg font-semibold text-incorrect" role="alert" tabindex="-1" hidden></div>
+
+    <form id="registration-form" class="mt-4 flex flex-col gap-4 [@media(max-height:820px)]:gap-3" novalidate
+          data-terms-version="{{ terms_version }}" data-privacy-version="{{ privacy_version }}">
+      <div>
+        <label for="full_name" class="field-label">Nombre completo</label>
+        <input id="full_name" name="full_name" type="text" class="field-input" autocomplete="name" maxlength="100" required
+               aria-describedby="full_name-error">
+        <p id="full_name-error" class="field-error" hidden></p>
+      </div>
+      <div>
+        <label for="email" class="field-label">Correo electrónico</label>
+        <input id="email" name="email" type="email" class="field-input" autocomplete="email" inputmode="email" maxlength="254" required
+               aria-describedby="email-error">
+        <p id="email-error" class="field-error" hidden></p>
+      </div>
+      <div>
+        <label for="phone" class="field-label">Celular <span id="phone-hint" class="text-base font-normal text-muted">· Ej.: 0991234567 o +593991234567</span></label>
+        <input id="phone" name="phone" type="tel" class="field-input" autocomplete="tel" inputmode="tel" maxlength="20" required
+               placeholder="0991234567" aria-describedby="phone-hint phone-error">
+        <p id="phone-error" class="field-error" hidden></p>
+      </div>
+
+      <fieldset class="flex flex-col border-t-2 border-line pt-3">
+        <legend class="sr-only">Condiciones</legend>
+        <div>
+          <label class="check">
+            <input type="checkbox" id="accept_terms" name="accept_terms" required aria-describedby="accept_terms-error">
+            <span>Acepto los <button type="button" class="link" data-open-legal="terms">Términos y Condiciones</button> del Reto Animal. <span class="text-incorrect" aria-hidden="true">*</span></span>
+          </label>
+          <p id="accept_terms-error" class="field-error ml-14" hidden></p>
+        </div>
+        <div>
+          <label class="check">
+            <input type="checkbox" id="accept_privacy" name="accept_privacy" required aria-describedby="accept_privacy-error">
+            <span>He leído el <button type="button" class="link" data-open-legal="privacy">Aviso de Privacidad</button> y autorizo el tratamiento de mis datos para registrar mi participación y administrar el juego. <span class="text-incorrect" aria-hidden="true">*</span></span>
+          </label>
+          <p id="accept_privacy-error" class="field-error ml-14" hidden></p>
+        </div>
+        <label class="check">
+          <input type="checkbox" id="marketing_opt_in" name="marketing_opt_in">
+          <span>Quiero recibir información comercial de Perseo y Perseo Pets. <span class="text-muted">(Opcional)</span></span>
+        </label>
+      </fieldset>
+
+      <button type="submit" id="submit-btn" class="btn-primary mt-1 w-full text-2xl">
+        <span data-label>Registrarme y jugar</span>
+        <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </form>
+  </section>
+</main>
+
+{% include "partials/legal_dialogs.html" %}
+{% endblock %}
+
+{% block scripts %}
+<script type="module" src="{{ url_for('static', filename='js/registration.js') }}"></script>
+{% endblock %}

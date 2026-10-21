@@ -1,0 +1,68 @@
+{% extends "admin_base.html" %}
+{% block title %}Catálogo de imágenes{% endblock %}
+
+{% block admin_content %}
+{% set tabs = [("pending", "Pendientes"), ("approved", "Aprobadas"), ("rejected", "Rechazadas"), ("all", "Todas")] %}
+{% set species_labels = {"dog": "Perro", "cat": "Gato", "other": "Otro animal"} %}
+{% set usage_labels = {"memory": "Solo memoria", "breed": "Solo raza", "both": "Memoria y raza"} %}
+
+<div class="flex flex-wrap items-end justify-between gap-4">
+  <div>
+    <h1 class="text-3xl font-extrabold">Catálogo de imágenes</h1>
+    <p class="mt-1 max-w-3xl text-base text-muted">
+      Aprueba solo fotos cuya raza puedas confirmar y cuya licencia permita uso comercial. Las aprobadas entran al juego de inmediato.
+      Preguntas estimadas por partida: <strong>~{{ content.estimated_questions }}</strong>.
+    </p>
+  </div>
+  <nav class="flex gap-2">
+    {% for key, label in tabs %}
+      <a href="{{ url_for('admin.catalog', estado=key) }}" class="rounded-xl px-4 py-2 font-semibold {{ 'bg-ink text-white' if status == key else 'bg-surface hover:bg-primary-soft' }}">{{ label }}</a>
+    {% endfor %}
+  </nav>
+</div>
+
+<section class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+  {% for a in assets %}
+  <article class="panel flex flex-col overflow-hidden">
+    <div class="relative">
+      <img src="{{ url_for('static', filename=a.local_path) }}" alt="{{ a.breed_name_es or species_labels[a.species] }}" class="aspect-square w-full object-cover" loading="lazy">
+      <span class="pill absolute left-3 top-3 text-sm {{ 'bg-correct text-white' if a.license_status == 'approved' else ('bg-incorrect text-white' if a.license_status == 'rejected' else 'bg-[#FEF3C7] text-[#92400E]') }}">
+        {{ {"approved": "Aprobada", "rejected": "Rechazada", "pending": "Pendiente"}[a.license_status] }}{% if a.license_status == "approved" and not a.active %} · Inactiva{% endif %}
+      </span>
+    </div>
+    <form method="post" action="{{ url_for('admin.update_asset', asset_id=a.id) }}" class="flex flex-1 flex-col gap-3 p-4">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <div class="grid grid-cols-2 gap-2">
+        <label class="text-sm font-semibold">Especie
+          <select name="species" class="field-input mt-1 py-2 text-base">
+            {% for s in species_options %}<option value="{{ s }}" {{ 'selected' if s == a.species }}>{{ species_labels[s] }}</option>{% endfor %}
+          </select>
+        </label>
+        <label class="text-sm font-semibold">Uso
+          <select name="usage" class="field-input mt-1 py-2 text-base">
+            {% for u in usage_options %}<option value="{{ u }}" {{ 'selected' if u == a.usage }}>{{ usage_labels[u] }}</option>{% endfor %}
+          </select>
+        </label>
+      </div>
+      <label class="text-sm font-semibold">Raza (español)
+        <input name="breed_name_es" value="{{ a.breed_name_es or '' }}" class="field-input mt-1 py-2 text-base" maxlength="100">
+      </label>
+      <p class="text-sm text-muted">
+        {{ a.provider }} · {{ a.attribution or "sin atribución" }}<br>
+        {% if a.source_url.startswith("http") %}<a href="{{ a.source_url }}" target="_blank" rel="noopener noreferrer" class="link">Ver original</a>{% endif %}
+      </p>
+      <div class="mt-auto flex flex-wrap gap-2">
+        <button name="action" value="approve" class="rounded-lg bg-correct px-3 py-2 text-sm font-bold text-white">Aprobar</button>
+        <button name="action" value="reject" class="rounded-lg bg-incorrect px-3 py-2 text-sm font-bold text-white">Rechazar</button>
+        <button name="action" value="save" class="rounded-lg border-2 border-line px-3 py-2 text-sm font-bold">Guardar</button>
+        {% if a.license_status == "approved" %}
+        <button name="action" value="toggle" class="rounded-lg border-2 border-line px-3 py-2 text-sm font-bold">{{ "Desactivar" if a.active else "Activar" }}</button>
+        {% endif %}
+      </div>
+    </form>
+  </article>
+  {% else %}
+  <p class="col-span-full rounded-xl bg-surface p-8 text-center text-lg text-muted">No hay imágenes en esta categoría. Importa contenido con <code>flask import-pexels</code> o <code>flask import-manifest</code>.</p>
+  {% endfor %}
+</section>
+{% endblock %}

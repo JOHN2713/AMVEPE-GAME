@@ -1,0 +1,16 @@
+{
+  "name": "amvepe-perseo-pets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Perseo Pets: Reto Animal - AMVEPE 2026 (estilos y fuentes del frontend)",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./app/static/css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./app/static/css/styles.css --watch",
+    "copy:fonts": "node ./scripts/copy-fonts.mjs",
+    "build": "npm run copy:fonts && npm run build:css"
+  },
+  "devDependencies": {
+    "@fontsource/montserrat": "5.1.0",
+    "tailwindcss": "3.4.17"
+  }
+}
