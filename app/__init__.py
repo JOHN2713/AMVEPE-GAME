@@ -22,7 +22,11 @@ def create_app(config_object: str = "app.config.Config") -> Flask:
     app.config.from_object(config_object)
     if not app.config.get("SECRET_KEY"):
         raise RuntimeError("SECRET_KEY es obligatorio en producción.")
-    os.makedirs(app.instance_path, exist_ok=True)
+    try:
+        os.makedirs(app.instance_path, exist_ok=True)
+    except OSError:
+        # Vercel y otros entornos serverless tienen el disco de solo lectura; la app no lo necesita en producción.
+        pass
 
     # Railway termina TLS en su proxy: respetar X-Forwarded-For/Proto para IP real y URLs https.
     app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1)

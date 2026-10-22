@@ -11,3 +11,7 @@ app/static/img/animals/placeholders/
 # Exportaciones con datos personales
 *.csv
 !data/*.csv
+
+# Generado por scripts/vercel_build.py
+public/
+.vercel/

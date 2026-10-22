@@ -5,7 +5,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 def _database_url() -> str:
-    url = os.environ.get("DATABASE_URL", "").strip()
+    # Neon (Marketplace de Vercel) publica DATABASE_URL y POSTGRES_URL; se acepta cualquiera.
+    url = (os.environ.get("DATABASE_URL") or os.environ.get("POSTGRES_URL") or "").strip()
     if not url:
         return f"sqlite:///{BASE_DIR / 'instance' / 'dev.sqlite3'}"
     # Railway entrega postgres:// o postgresql://; SQLAlchemy necesita el driver psycopg (v3).
@@ -29,7 +30,10 @@ class Config:
 
     SECRET_KEY = os.environ.get("SECRET_KEY") or ("dev-only-secret" if not IS_PRODUCTION else None)
     SQLALCHEMY_DATABASE_URI = _database_url()
-    SQLALCHEMY_ENGINE_OPTIONS = {"pool_pre_ping": True}
+    SQLALCHEMY_ENGINE_OPTIONS = {"pool_pre_ping": True, "pool_recycle": 300}
+    if SQLALCHEMY_DATABASE_URI.startswith("postgresql"):
+        # Los poolers tipo PgBouncer (Neon, Supabase) no soportan sentencias preparadas del servidor.
+        SQLALCHEMY_ENGINE_OPTIONS["connect_args"] = {"prepare_threshold": None}
     JSON_SORT_KEYS = False
     MAX_CONTENT_LENGTH = 64 * 1024
 

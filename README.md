@@ -52,17 +52,22 @@ Todo lo importado entra como **pendiente** y no se usa hasta aprobarlo en `/admi
 .venv\Scripts\flask export-catalog      # guarda las aprobadas en data/catalog.json
 ```
 
-Las fotos se recortan a 800×800 px en WebP y se guardan con nombre por hash, en `app/static/img/animals/`. **Versiona en Git esa carpeta y `data/catalog.json`**: el disco de Railway es efímero y `flask deploy` vuelve a registrar el catálogo en PostgreSQL en cada despliegue.
+Las fotos se guardan completas (sin recortar al animal) en un cuadrado de 1000 px WebP con nombre por hash, en `app/static/img/animals/`. **Versiona en Git esa carpeta y `data/catalog.json`**: el disco del servidor no es persistente y el despliegue vuelve a registrar el catálogo en PostgreSQL.
 
 Recomendado: al menos 6 imágenes de "otros animales" para memoria y 25 o más fotos de razas (perros y gatos) para que las preguntas no se agoten en 45 s.
 
-## Despliegue en Railway
+## Despliegue en Vercel
 
-1. Crea un proyecto con un servicio **PostgreSQL** y un servicio web desde este repositorio (usa el `Dockerfile` y `railway.json`).
-2. Variables del servicio web: `APP_ENV=production`, `SECRET_KEY`, `DATABASE_URL=${{Postgres.DATABASE_URL}}`, `EVENT_CODE`, `TERMS_VERSION`, `PRIVACY_VERSION`, `ADMIN_USERNAME`, `ADMIN_PASSWORD_HASH`, `PUBLIC_DEMO_URL`.
-3. `railway.json` ejecuta `flask deploy` antes de cada despliegue (migraciones, carga de `data/catalog.json` y aviso si falta contenido) y usa `/health` como health check.
-4. Genera el dominio HTTPS y prueba una partida completa, el ranking y la exportación CSV en la URL de producción.
-5. Antes del evento: verifica los backups de PostgreSQL, la región del servicio y el acceso de administración.
+1. En Vercel: **Add New → Project** e importa el repositorio de GitHub. Vercel detecta Flask (`wsgi.py`) y Python 3.12 (`.python-version`).
+2. En el proyecto, **Storage → Create Database → Neon (Postgres)** y conéctala al proyecto: crea `DATABASE_URL` automáticamente.
+3. **Settings → Environment Variables** (entorno Production): `APP_ENV=production`, `SECRET_KEY`, `EVENT_CODE`, `TERMS_VERSION`, `PRIVACY_VERSION`, `ADMIN_USERNAME`, `ADMIN_PASSWORD_HASH`, `PUBLIC_DEMO_URL`. La clave de Magnific no hace falta.
+4. Despliega. El build (`scripts/vercel_build.py`) copia `app/static` a `public/static` para el CDN y, **solo en producción**, aplica migraciones, carga `data/catalog.json` y falla si no hay contenido suficiente. Los despliegues de preview no tocan la base de producción.
+5. Abre la URL `*.vercel.app` (o conecta tu dominio) y prueba `/health`, una partida completa, el ranking y la exportación CSV.
+
+Alternativa manual (por ejemplo, si el build no pudo migrar): desde tu equipo, con la URL de Neon,
+`$env:DATABASE_URL="postgresql://..."; .venv\Scripts\flask deploy`.
+
+Notas: el disco de Vercel es de solo lectura (las importaciones de fotos se hacen siempre en local) y cada despliegue de `main` publica producción. Elige para Neon una región cercana (p. ej. `us-east`) y revisa sus backups antes del evento. `Dockerfile` y `railway.json` quedan como alternativa para Railway.
 
 ## Operación en la feria
 
